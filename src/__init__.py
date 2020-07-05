@@ -26,7 +26,7 @@ def get_latest_value(client, project_id, secret_id, default):
     latest = versions[0].name
 
     # Access the secret version.
-    response = client.access_secret_version(latest.name)
+    response = client.access_secret_version(latest)
 
     payload = response.payload.data.decode('UTF-8')
     return payload
