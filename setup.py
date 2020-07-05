@@ -12,7 +12,10 @@ setup(
     author_email='',
     url='https://github.com/TheJokersThief/simple-gcp-secrets-manager-puller',
     py_modules=['secretpuller'],
-    package_data={'secretpuller': 'src'},
+    packages=[
+       'secretpuller',
+    ],
+    package_dir={'secretpuller': 'src'},
     scripts=[],
     test_suite='tests',
     include_package_data=True,
