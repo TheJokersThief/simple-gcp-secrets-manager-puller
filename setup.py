@@ -11,7 +11,7 @@ setup(
     author='Evan Smith',
     author_email='',
     url='https://github.com/TheJokersThief/simple-gcp-secrets-manager-puller',
-    packages=['secretpuller'],
+    py_modules=['secretpuller'],
     package_data={'secretpuller': 'src'},
     scripts=[],
     test_suite='tests',
