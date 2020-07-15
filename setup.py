@@ -15,7 +15,8 @@ setup(
     packages=[
        'secretpuller',
     ],
-    package_dir={'secretpuller': 'src'},
+#    package_dir={'secretpuller': 'src'},
+    package_dir={ '' : 'src' }
     scripts=[],
     test_suite='tests',
     include_package_data=True,
