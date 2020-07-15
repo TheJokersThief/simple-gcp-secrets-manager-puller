@@ -12,14 +12,13 @@ setup(
     author_email='',
     url='https://github.com/TheJokersThief/simple-gcp-secrets-manager-puller',
     py_modules=['secretpuller'],
-    packages=[
-       'secretpuller',
-    ],
-    package_dir={'secretpuller': 'src'},
+#    package_dir={'secretpuller': 'src'},
+    package_dir={ '' : 'src' },
     scripts=[],
     test_suite='tests',
     include_package_data=True,
     zip_safe=False,
     keywords='',
     classifiers=[],
+    install_requires=["google-cloud-secret-manager"],
 )
