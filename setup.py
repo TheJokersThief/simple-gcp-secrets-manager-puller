@@ -4,7 +4,7 @@
 from setuptools import setup
 
 setup(
-    name='simple-gcp-secrets-manager-puller',
+    name='secretpuller',
     version='1.0.0',
     description='Small abstraction for pulling secret values from GCP secrets manager',
     long_description='Small abstraction for pulling secret values from GCP secrets manager',
