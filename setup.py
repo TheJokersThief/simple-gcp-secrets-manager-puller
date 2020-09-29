@@ -20,5 +20,5 @@ setup(
     zip_safe=False,
     keywords='',
     classifiers=[],
-    install_requires=["google-cloud-secret-manager"],
+    install_requires=["google-cloud-secret-manager=1.0.0"],
 )
